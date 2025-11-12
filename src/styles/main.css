@@ -70,3 +70,23 @@
 .menu-score h2:nth-child(2) {
     margin-top: 1rem;
 }
+
+@media (max-width: 480px) {
+    .menu {
+        height: 150px;
+    }
+}
+
+@media (max-width: 430px) {
+    .square { 
+        height: 140px;
+        width: 140px;
+    }
+}
+
+@media (max-width: 395px) {
+    .square { 
+        height: 125px;
+        width: 125px;
+    }
+}
